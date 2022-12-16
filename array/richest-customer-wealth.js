@@ -17,3 +17,21 @@ var maximumWealth = function(accounts) {
 };
 console.log(maximumWealth([[1,2,3],[3,2,1]])); 
 // output : 6
+
+//https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero
+var numberOfSteps = function(num) {
+    let count = 0;
+   while (num !== 0){
+       if(num%2 === 0){
+       num = num/2;
+       count++;
+       }
+      else if(num %2 !== 0){
+           num = num-1;
+           count++;
+       }
+   }
+   return count;
+};
+console.log(numberOfSteps(num = 14)); 
+//output: 6
