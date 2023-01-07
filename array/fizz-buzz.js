@@ -24,4 +24,5 @@ var fizzBuzz = function(n) {
 }
 return result;
 };
-console.log(function(n=3));
+
+// ransom-note
