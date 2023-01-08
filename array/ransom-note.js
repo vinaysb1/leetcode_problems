@@ -11,4 +11,3 @@ var canConstruct = function(ransomNote, magazine) {
     if (!ransomNote) return true;
     else return false;
   };
-  console.log(ransomNote = "a", magazine = "b");
